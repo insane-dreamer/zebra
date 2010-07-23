@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Golick", "Josh Gruenberg"]
   s.date = %q{2009-03-21}
-  s.description = %q{TODO}
+  s.description = %q{TEST}
   s.email = %q{joshngru@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
   s.files = ["README.rdoc", "VERSION.yml", "lib/zebra", "lib/zebra/shoulda.rb", "lib/zebra.rb", "test/context", "test/context/context_test.rb", "test/else", "test/else/matchy_test.rb", "test/shoulda", "test/shoulda/shoulda_test.rb", "test/test_helper.rb", "LICENSE"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{TODO}
+  s.summary = %q{TEST}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
