@@ -23,16 +23,16 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<jeremymcanally-matchy>, [">= 0.0.1"])
+      s.add_runtime_dependency(%q<matchy>, [">= 0.0.1"])
       s.add_runtime_dependency(%q<ParseTree>, [">= 3.0.2"])
       s.add_runtime_dependency(%q<ruby2ruby>, [">= 1.2.1"])
     else
-      s.add_dependency(%q<jeremymcanally-matchy>, [">= 0.0.1"])
+      s.add_dependency(%q<matchy>, [">= 0.0.1"])
       s.add_dependency(%q<ParseTree>, [">= 3.0.2"])
       s.add_dependency(%q<ruby2ruby>, [">= 1.2.1"])
     end
   else
-    s.add_dependency(%q<jeremymcanally-matchy>, [">= 0.0.1"])
+    s.add_dependency(%q<matchy>, [">= 0.0.1"])
     s.add_dependency(%q<ParseTree>, [">= 3.0.2"])
     s.add_dependency(%q<ruby2ruby>, [">= 1.2.1"])
   end
